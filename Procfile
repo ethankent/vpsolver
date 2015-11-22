@@ -1,1 +1,1 @@
-web: gunicorn pyvpsolver.webapp:app --log-file=-
+web: gunicorn pyvpsolver:webapp:app --log-file=-
