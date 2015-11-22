@@ -3,3 +3,4 @@ future >= 0.15.0
 six >= 1.5.2
 flask >= 0.10.1
 pympl >= 0.8.0
+gunicorn==19.3
