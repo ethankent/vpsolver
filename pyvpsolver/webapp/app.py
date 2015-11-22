@@ -90,7 +90,7 @@ def vbp(example):
     """Renders the input page."""
     title = "Vector Packing"
 
-    example_folder = "data/examples/vbp/"
+    example_folder = os.path.join(os.path.dirname(__file__), "data/examples/vbp/")
     examples = [
         ("/vbp/", "", None),
         ("/vbp/bpp", "BPP", "bpp.vbp"),
